@@ -1,0 +1,145 @@
+@import '../../all.scss';
+
+.intro{
+  width:100%;
+  max-width: 71.25rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: calc(4rem + 4.5rem) 2rem 4rem;
+
+  .content{
+    
+
+    .top{
+      margin-top: 5rem;
+
+      h1{
+        font-size:5rem;
+        color:$white;
+        font-weight: 200;
+        word-break: keep-all;
+      }
+      .line{
+        width: 4rem;
+        height: 0;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        border: none;
+        border-top: .5rem solid 
+        #82D580;
+        
+      }
+    }
+
+    .text{
+      font-size:2rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: hsla(0,0%,100%,.75);
+      line-height: 1.5;
+      margin-top: 2rem;
+
+    }
+
+    .button{
+      margin-top: 2rem;
+      padding:2rem;
+
+      button{
+        display:inline-block;
+        font-size: 2.3rem;
+        background-color: $green;
+        padding:1rem 2rem;
+        border-radius: 10rem;
+        text-decoration: none;
+
+        &:hover{
+          background-color:#0d730d;
+          
+        }
+        
+        a{
+          color:$white;
+          font-family: 'Poppins', sans-serif;
+          font-size:2rem;
+          padding:5rem 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+
+    
+
+  }
+  
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:linear-gradient(180deg,rgba(189, 177, 163, 0.8) 0,rgba(75, 78, 72, 0.8) 
+    90%),url('./사진.jpg') 50% no-repeat;
+    background-size: cover;
+    z-index:-1;
+    height: 57%;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media query
+
+@media (max-width:991px){
+  .intro{
+    .content{
+      .top{
+        h1{
+          font-size:4.5rem;
+       }
+      }
+      .text{
+        font-size:1.8rem;
+      }
+
+    }
+ }
+}
+
+
+@media(max-width:768px){
+  .intro{
+      .content{
+        .top{
+          h1{
+            font-size:4rem;
+        }
+      }
+      .text{
+        font-size:1.6rem;
+      }
+    }
+  }
+}

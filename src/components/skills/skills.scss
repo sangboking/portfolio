@@ -1,0 +1,86 @@
+@import '../../all.scss';
+
+.skills{
+  background-color: #1d809f;
+  
+  
+  .content{
+    width:100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    padding:4rem 2rem;
+    
+
+    .icon{
+      display: inline-block;
+      margin-right: 1.5rem;
+      font-size: 4rem;
+      color:$white;
+    }
+
+    .title{
+      display: inline-block;
+      font-size: 4rem;
+      letter-spacing: .2rem;
+      padding:.5rem;
+      border-bottom: 1px solid $white;
+    }
+
+    .text{
+      display: flex;
+      flex-wrap:wrap;
+      text-align: center;
+      justify-content: center;
+      background-color: $white;
+      margin-top: 3rem;
+      border-radius: 10rem;
+      margin-bottom: 4rem;
+
+      .hsj{
+        img{
+          width:300px;
+          
+          
+        }
+      }
+
+      .react{
+        img{
+          width:300px;
+          
+          
+        }
+      }
+
+      .redux{
+        img{
+          width: 250px;
+          margin-top: 5rem;
+        }
+      }
+
+      .git{
+        img{
+          width:230px;
+          
+        }
+      }
+
+      .github{
+        img{
+          width:280px;
+          margin-left: 3rem;
+        }
+      }
+
+      .scss{
+        img{
+          width:230px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+@import '../../all.scss';
+
+.topbar{
+  position:fixed;
+  top: 0; left: 0; right: 0;
+  padding: 2rem 9%;
+  z-index: 10;
+  display:flex;
+  align-items: center;
+  
+  
+  
+  .name{
+    margin-right: auto;
+    font-size:2.5rem;
+    font-weight: 700;
+    color:$white;
+    cursor: pointer;
+    a{
+      color:$white;
+      font-family: 'Poppins', sans-serif;
+
+      &:hover{
+        color:$green;
+      }
+    }
+    
+  }
+
+  .navbar{
+    .close{
+      font-size:4rem;
+      cursor: pointer;
+      color:$black;
+      display:none;
+    }
+    
+    a{
+      margin-left:2rem;
+      font-size: 1.7rem;
+      color:$white;
+      font-family: 'Poppins', sans-serif;
+
+      &:hover{
+        color:$green;
+      }
+    }
+  }
+
+  .icons {
+    display:none;
+    .menu{
+    font-size: 5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    color:$white;
+    display:flex;
+    justify-content: center;
+    
+    &:hover{
+      color:$green;
+    }
+    }
+  }
+
+}
+
+.change_topbar{
+  position:fixed;
+  top: 0; left: 0; right: 0;
+  padding: 2rem 9%;
+  z-index: 10;
+  display:flex;
+  align-items: center;
+  background-color: $white;
+  
+  
+  .name{
+    margin-right: auto;
+    font-size:2.5rem;
+    font-weight: 700;
+    color:$black;
+    cursor: pointer;
+    a{
+      color:$black;
+      font-family: 'Poppins', sans-serif;
+
+      &:hover{
+        color:$green;
+      }
+    }
+    
+  }
+
+  .navbar{
+    .close{
+      font-size:4rem;
+      cursor: pointer;
+      color:$black;
+      display:none;
+    }
+    
+    a{
+      margin-left:2rem;
+      font-size: 1.7rem;
+      color:$black;
+      font-family: 'Poppins', sans-serif;
+
+      &:hover{
+        color:$green;
+      }
+    }
+  }
+
+  .icons {
+    display:none;
+    .menu{
+    font-size: 5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    color:$black;
+    display:flex;
+    justify-content: center;
+    
+    &:hover{
+      color:$green;
+    }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media queries
+
+@media (max-width:1200px){
+  .topbar{
+    padding:2rem;
+  }
+}
+@media (max-width:1200px){
+  .change_topbar{
+    padding:2rem;
+  }
+}
+
+@media (max-width:991px){
+  html{
+    font-size:55%;
+  }
+}
+
+@media (max-width:768px){
+  .topbar{
+    .icons {
+      display:inline-block;
+      
+    }
+
+    .navbar{
+      position:fixed;
+      top:0; left:-110%;
+      background: $white;
+      z-index:10;
+      width:35rem;
+      height: 100%;
+      display:flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+
+      &.active{
+        left:0;
+        box-shadow:0 0 0 100vw rgba(0,0,0,.8);
+        background-color: $black;
+      }
+
+      a{
+        margin:1rem 0;
+        font-size: 3rem;
+
+        
+      }
+
+      .close{
+        display:block;
+        position: absolute;
+        top: 1rem; right:2rem;
+        color:$white;
+      }
+    }
+  }
+}
+@media (max-width:768px){
+  .change_topbar{
+    .icons {
+      display:inline-block;
+      
+    }
+
+    .navbar{
+      position:fixed;
+      top:0; left:-110%;
+      background: $white;
+      z-index:10;
+      width:35rem;
+      height: 100%;
+      display:flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+
+      &.active{
+        left:0;
+        box-shadow:0 0 0 100vw rgba(0,0,0,.8);
+        background-color: $black;
+      }
+
+      a{
+        margin:1rem 0;
+        font-size: 3rem;
+        color:$white;
+        
+      }
+
+      .close{
+        display:block;
+        position: absolute;
+        top: 1rem; right:2rem;
+        color:$white;
+      }
+    }
+  }
+}
+
+@media (max-width:450px){
+  html{
+    font-size:50%;
+  }
+}

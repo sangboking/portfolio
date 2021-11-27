@@ -1,0 +1,49 @@
+.buttonno{
+  position:fixed;
+  right:3rem;
+  bottom:3rem;
+  display: flex;
+  border-color: black;
+  z-index: 5;
+  display: none;
+  
+  .up{
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    opacity: 0.8;
+    border: 3px solid black;
+    cursor: pointer;
+    .arrow{
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.buttonok{
+  position:fixed;
+  right:3rem;
+  bottom:3rem;
+  display: flex;
+  border-color: black;
+  z-index: 5;
+  transition: 0.5;
+  
+  .up{
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    opacity: 0.7;
+    border: 3px solid black;
+    cursor: pointer;
+    .arrow{
+      font-size: 2.5rem;
+    }
+  }
+
+  
+}
