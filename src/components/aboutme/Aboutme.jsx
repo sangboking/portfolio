@@ -22,7 +22,7 @@ export default function Aboutme() {
           <div className="name">
             <div className="icon"><AiOutlineSchedule/></div>
             <div className="title">
-              생년원일
+              생년월일
               <div className="t_name">97.05.19</div>
             </div>
           </div>
