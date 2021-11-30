@@ -1,13 +1,47 @@
+import { textAlign } from '@mui/system';
+import { useEffect, useState } from 'react';
 import './intro.scss';
 
 
 export default function Intro() {
+  
+  const txt = '웹 프론트엔드 개발자';
+  const txt2 = '포트폴리오';
+  const [Text, setText] = useState('');
+  const [Text2, setText2] = useState('');
+  const [Count, setCount] = useState(0);
+  const [Count2, setCount2] = useState(0);
+
+    
+  
+  useEffect(()=>{
+    const interval = setInterval(()=>{
+      setText(Text + txt[Count]);
+      setCount(Count + 1);
+    },150);
+    if(Count === txt.length){
+      clearInterval(interval);
+    }
+    return()=> clearInterval(interval);
+  })
+
+  useEffect(()=>{
+    const interval = setInterval(()=>{
+      setText2(Text2 + txt2[Count2]);
+      setCount2(Count2 + 1);
+    },150);
+    if(Count2 === txt2.length){
+      clearInterval(interval);
+    }
+    return()=> clearInterval(interval);
+  })
+  
   return (
     <div className="intro" id="Intro">
       <div className="content">
         
         <div className="top">
-          <h1>웹 프론트엔드 개발자 <br/>포트폴리오</h1>
+          <h1>{Text} <br/>{Text2}</h1>
           <hr className="line" />
         </div>
 

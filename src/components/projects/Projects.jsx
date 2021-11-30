@@ -217,7 +217,7 @@ export default function Projects() {
                  <AiFillBulb/>기능 
                 </div>
                 <div className="skill_content">
-                     스크롤다운시 헤더변경, Totop버튼
+                     스크롤다운시 헤더변경, Totop버튼, Intro타이핑 효과
                 </div>
               </div>
 

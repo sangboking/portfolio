@@ -25,7 +25,7 @@ export default function Topbar(props) {
       <nav className={"navbar " + ( props.menuOpen &&  "active")} >
         <div className="close" onClick={()=>{props.setmenuOpen(!props.menuOpen)}}><MdClose/></div>
         <a href="#Intro" ></a>
-        <a href="#Aboutme">About Me</a>
+        <a href="#Info">Info</a>
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>

@@ -5,11 +5,11 @@ import { AiOutlineAliwangwang,AiOutlineUser
 
 export default function Aboutme() {
   return (
-    <div className="aboutme" id="Aboutme">
+    <div className="aboutme" id="Info">
       <div className="content">
         <div className="aboutme_title">
           <AiOutlineAliwangwang className="icon"/>
-          <h1>About me</h1>
+          <h1>Info</h1>
         </div>
 
         <div className="aboutme_content">
@@ -43,7 +43,7 @@ export default function Aboutme() {
             <div className="icon"><AiOutlineMail/></div>
             <div className="title">
               이메일
-              <div className="t_name">cowg001@naver.com</div>
+              <div className="t_name"><a href="mailto:cowg001@naver.com">cowg001@naver.com</a></div>
             </div>
           </div>
           <div className="name">

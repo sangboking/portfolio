@@ -1,5 +1,5 @@
 import "./contact.scss"
-import { AiFillGithub,AiFillInstagram,AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub,AiFillInstagram,AiFillFacebook,AiFillMail} from "react-icons/ai";
 
 export default function Contact() {
   return (
@@ -16,6 +16,11 @@ export default function Contact() {
         <div className="facebook">
           <a href="https://www.facebook.com/profile.php?id=100005739102512"><AiFillFacebook/></a>
         </div>
+
+        <div className="mail">
+          <a href="mailto:cowg001@naver.com"><AiFillMail/></a>
+        </div>
+
       </div>
       <div className="text">
         Copyright @ 2021 By PSH.
