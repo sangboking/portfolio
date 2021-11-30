@@ -16,27 +16,27 @@ export default function Skills() {
         <div className="text">
           
           <div className="hsj">
-            <img src="./img/사진1.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진1.png" alt="" />
           </div>
 
           <div className="scss">
-            <img src="./img/사진6.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진6.png" alt="" />
           </div>
             
           <div className="react">
-            <img src="./img/사진2.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진2.png" alt="" />
           </div>
 
           <div className="redux">
-            <img src="./img/사진3.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진3.png" alt="" />
           </div>
 
           <div className="git">
-            <img src="./img/사진4.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진4.png" alt="" />
           </div>
 
           <div className="github">
-            <img src="./img/사진5.png" alt="" />
+            <img src="https://sangboking.github.io/portfolio/img/사진5.png" alt="" />
           </div>
 
 

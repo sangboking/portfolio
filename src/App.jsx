@@ -34,7 +34,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
-      <div className={scroll > 500 ?"buttonok" : "buttonno"}>
+      <div className={scroll > 200 ?"buttonok" : "buttonno"}>
         <button className="up" onClick={gotop}><FiArrowUp className="arrow"/></button>
       </div>
     </div>

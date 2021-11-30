@@ -1,3 +1,51 @@
-.portfolio{
-  background-color: lightskyblue;
+@import '../../all.scss';
+
+.projects{
+  background-color: yellow;
+  
+  .content{
+    width:100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding:4rem 2rem;
+
+    .icon{
+      display: inline-block;
+      margin-right: 1.5rem;
+      font-size: 4rem;
+      color:$black;
+    }
+
+    .title{
+      display: inline-block;
+      font-size: 4rem;
+      letter-spacing: .2rem;
+      padding:.5rem;
+      border-bottom: 1px solid $black;
+    }
+
+    .text{
+      margin-top:3rem;
+      width: 100%;
+      background-color: $white;
+      border-radius: 10rem;
+      padding:2rem;
+
+      .text_title{
+        
+        h1{
+          font-family: 'Noto Sans KR', sans-serif;
+          font-size: 2.5rem;
+          font-weight: 400;
+          color:#222;
+        }
+        h2{
+          font-family: 'Noto Sans KR', sans-serif;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
 }
