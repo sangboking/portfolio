@@ -254,6 +254,66 @@ export default function Projects() {
           </div> 
         </div>
 
+        
+        {/* todolist */}
+        <div className="text">
+          <div className="text_title">
+            <h1>Todo List</h1>
+            <h2>제작기간 : 2021.12월</h2>
+          </div>
+
+          <div className="text_content">
+            <div className="left">
+              <img src="https://sangboking.github.io/portfolio/img/사진11.png" alt="" />
+            </div>
+            <div className="right">
+              <div className="right_text">
+                <h1>React를 사용한 Todo List 입니다</h1>
+                React의 훅들을 이용하여 내가할일 추가,토글,삭제 기능을 구현하였습니다.  
+              </div>
+
+              <div className="skill">
+                <div className="skill_name">
+                 <AiFillBulb/>기능 
+                </div>
+                <div className="skill_content">
+                     List 추가,삭제,토글
+                </div>
+              </div>
+
+              <div className="skill">
+                <div className="skill_name">
+                 <AiFillBulb/>Git hub 
+                </div>
+                <div className="skill_content">
+                  <a href="https://github.com/sangboking/todolist">
+                  github.com/sangboking/todolist</a>
+                </div>
+              </div>
+
+              <div className="skill">
+                <div className="skill_name">
+                 <AiFillBulb/>주소 
+                </div>
+                <div className="skill_content">
+                  <a href="https://sangboking.github.io/todolist/">
+                  sangboking.github.io/todolist/
+                  </a>
+                </div>
+              </div>
+
+              <div className="skill">
+                <div className="skill_name">
+                 <AiFillBulb/>기술
+                </div>
+                <div className="skill_content">
+                  React, Scss
+                </div>
+              </div>            
+            </div>
+          </div> 
+        </div>
+
 
 
       
