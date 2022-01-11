@@ -63,5 +63,18 @@ export default [
     pagead:"https://sangboking.github.io/todolist/",
     page:"sangboking.github.io/todolist/",
     skill:"React, Scss"
+  },
+  {
+    id:6,
+    title:"Movie App",
+    date:"제작기간 : 2021.1월",
+    content:"React를 사용한 Movie App 입니다.",
+    content2:"Movie API를 받아 화면에 간단하게 구현한 사이트입니다.비동기 처리인 async await에 대해 깊게학습할수 있었고, react-router-dom의 6버전이 나오면서 바뀐 내용을 적용하여 사용하였습니다.",
+    function:"API처리, Router처리",
+    githubad:"https://github.com/sangboking/todolist",
+    github:"github.com/sangboking/react-movieapp",
+    pagead:"https://sangboking.github.io/react-movieapp/",
+    page:"sangboking.github.io/react-movieapp/",
+    skill:"React, Scss"
   }
 ]
