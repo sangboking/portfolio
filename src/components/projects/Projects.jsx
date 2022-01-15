@@ -19,7 +19,7 @@ export default function Projects() {
 
         {
           data.map((data,i)=>{
-            return <div className="text">
+            return <div className="text" key={i}>
             <div className="text_title">
               <h1>{data.title}</h1>
               <h2>제작기간 : {data.date}</h2>

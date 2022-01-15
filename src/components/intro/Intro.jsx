@@ -23,7 +23,7 @@ export default function Intro() {
       clearInterval(interval);
     }
     return()=> clearInterval(interval);
-  })
+  },[Text,Count])
 
   useEffect(()=>{
     const interval = setInterval(()=>{
@@ -34,7 +34,7 @@ export default function Intro() {
       clearInterval(interval);
     }
     return()=> clearInterval(interval);
-  })
+  },)
   
   return (
     <div className="intro" id="Intro">
