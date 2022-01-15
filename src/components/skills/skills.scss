@@ -6,7 +6,7 @@
   
   .content{
     width:100%;
-    max-width: 80rem;
+    max-width: 110rem;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
@@ -29,58 +29,34 @@
       border-bottom: 1px solid $white;
     }
 
-    .text{
-      display: flex;
-      flex-wrap:wrap;
-      text-align: center;
-      justify-content: center;
-      background-color: $white;
+    .wrap{
+      background-color: white;
       margin-top: 3rem;
       border-radius: 10rem;
       margin-bottom: 4rem;
 
-      .hsj{
-        img{
-          width:300px;
-          
-          
-        }
+      .wrap_title{
+        display: flex;
+        margin-left: 10rem;
+        padding-top: 3rem;
       }
 
-      .react{
-        img{
-          width:300px;
-          
-          
+      .text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+       
+  
+        .hsj{
+          img{
+            width:250px;
+            height:200px;
+          }
         }
-      }
-
-      .redux{
-        img{
-          width: 250px;
-          margin-top: 5rem;
-        }
-      }
-
-      .git{
-        img{
-          width:230px;
-          
-        }
-      }
-
-      .github{
-        img{
-          width:280px;
-          margin-left: 3rem;
-        }
-      }
-
-      .scss{
-        img{
-          width:230px;
-        }
+  
       }
     }
+
+    
   }
 }

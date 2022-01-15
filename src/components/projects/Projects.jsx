@@ -27,7 +27,7 @@ export default function Projects() {
 
             <div className="text_content">
               <div className="left">
-                <img src={"https://sangboking.github.io/portfolio/img/사진"+(i+7)+".png"} alt="" />
+                <img src={"https://sangboking.github.io/portfolio/img/PJ"+(i+1)+".png"} alt="" />
               </div>
               <div className="right">
                 <div className="right_text">
